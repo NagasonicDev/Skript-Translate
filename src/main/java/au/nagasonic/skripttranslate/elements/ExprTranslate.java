@@ -35,7 +35,7 @@ public class ExprTranslate extends SimpleExpression<String> {
         }
         String translated;
         try {
-            translated = TranslateUtils.translateSpecific(text, lang.getCode());
+            translated = TranslateUtils.translate(text, lang.getCode());
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
