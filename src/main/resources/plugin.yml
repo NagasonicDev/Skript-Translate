@@ -1,0 +1,4 @@
+name: Skript-Translate
+version: '${version}'
+main: au.nagasonic.skripttranslate.Skript_Translate
+api-version: '1.20'
