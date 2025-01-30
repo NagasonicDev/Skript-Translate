@@ -1,0 +1,63 @@
+version: @version@
+
+types:
+    language: language¦s @a
+
+languages:
+    amharic: amharic
+    arabic: arabic
+    basque: basque
+    bengali: bengali
+    english_uk: english uk
+    portugese_brazil: brazilian portugese
+    bulgarian: bulgarian
+    catalan: catalan
+    cherokee: cherokee
+    croatian: croatian
+    czech: czech
+    danish: danish
+    dutch: dutch
+    english: english
+    estonian: estonian
+    filipino: filipino
+    finnish: finnish
+    french: french
+    german: german
+    greek: greek
+    gujarati: gujarati
+    hebrew: hebrew
+    hindi: hindi
+    hungarian: hungarian
+    icelandic: icelandic
+    indonesian: indonesian
+    italian: italian
+    japanese: japanese
+    kannada: kannada
+    korean: korean
+    latvian: latvian
+    lithuanian: lithuanian
+    malay: malay
+    malayalam: malayalam
+    marathi: marathi
+    norwegian: norwegian
+    polish: polish
+    portugese: portugese
+    romanian: romanian
+    russian: russian
+    serbian: serbian
+    chinese: chinese
+    slovak: slovak
+    slovenian: slovenian
+    spanish: spanish
+    swahili: swahili
+    swedish: swedish
+    tamil: tamil
+    telugu: telugu
+    thai: thai
+    chinese_taiwan: taiwanese mandarin
+    turkish: turkish
+    urdu: urdu
+    ukrainian: ukrainian
+    vietnamese: vietnamese
+    welsh: welsh
+    none: none

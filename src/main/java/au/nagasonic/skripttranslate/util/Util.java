@@ -1,6 +1,6 @@
-package au.nagasonic.skonic.elements.util;
+package au.nagasonic.skripttranslate.util;
 
-import au.nagasonic.skonic.Skonic;
+import au.nagasonic.skripttranslate.Skript_Translate;
 import ch.njol.skript.Skript;
 import ch.njol.skript.log.ErrorQuality;
 import net.md_5.bungee.api.ChatColor;
@@ -22,8 +22,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Util {
-    private static final String PREFIX = "&7[&9Skonic&7] ";
-    private static final String PREFIX_ERROR = "&7[&9Skonic &cERROR&7] ";
+    private static final String PREFIX = "&7[&eSkript-Translate&7] ";
+    private static final String PREFIX_ERROR = "&7[&eSkript-Translate &cERROR&7] ";
     private static final Pattern HEX_PATTERN = Pattern.compile("<#([A-Fa-f\\d]){6}>");
     private static final boolean SKRIPT_IS_THERE = Bukkit.getPluginManager().getPlugin("Skript") != null;
 
@@ -114,7 +114,7 @@ public class Util {
             namespacedKey = NamespacedKey.fromString(key);
         } else { // Just a safety check, settings_namespace can't be null but in case this is defaulted to.
             try {
-                namespacedKey = new NamespacedKey(Skonic.getInstance(), key);
+                namespacedKey = new NamespacedKey(Skript_Translate.getInstance(), key);
             } catch (Exception exception) {
                 if (error) {
                     skriptError(exception.getMessage());
