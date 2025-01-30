@@ -40,7 +40,7 @@ public final class Skript_Translate extends JavaPlugin {
         String version = getDescription().getVersion();
         if (version.contains("b")) {
             Util.log("&eThis is a Beta build, things may not work as expected, please report any bugs on GitHub");
-            Util.log("&ehttps://github.com/NagasonicDev/Skonic/issues");
+            Util.log("&ehttps://github.com/NagasonicDev/Skript-Translate/issues");
         }
 
         Metrics metrics = new Metrics(this, 24590);

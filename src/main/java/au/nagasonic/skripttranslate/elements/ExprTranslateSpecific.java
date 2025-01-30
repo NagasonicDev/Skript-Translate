@@ -18,7 +18,7 @@ import org.jetbrains.annotations.Nullable;
 @Name("Translate Specific")
 @Description("Translates a text to a language while specifying the language translating from.")
 @Since("1.0")
-@Examples("")
+@Examples("set {_bonjour} to translate \"Hello\" as french from english")
 public class ExprTranslateSpecific extends SimpleExpression<String> {
     static {
         Skript.registerExpression(ExprTranslateSpecific.class, String.class, ExpressionType.COMBINED,

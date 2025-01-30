@@ -32,14 +32,14 @@ public class AddonLoader {
         }
         if (!skriptPlugin.isEnabled()) {
             Util.log("&cDependency Skript is not enabled, plugin disabling.");
-            Util.log("&cThis could mean SkBee is being forced to load before Skript.");
+            Util.log("&cThis could mean &eSkript-Translate is being forced to load before Skript.");
             return false;
         }
 
         if (!Skript.isAcceptRegistrations()) {
             Util.log("&cSkript is no longer accepting registrations, addons can no longer be loaded!");
             Util.log("&cNo clue how this could happen.");
-            Util.log("&cSeems a plugin is delaying &9Skonic loading, which is after Skript stops accepting registrations.");
+            Util.log("&cSeems a plugin is delaying &eSkript-Translate &cloading, which is after Skript stops accepting registrations.");
             return false;
         }
         Version version = new Version(Skript_Translate.EARLIEST_VERSION);
