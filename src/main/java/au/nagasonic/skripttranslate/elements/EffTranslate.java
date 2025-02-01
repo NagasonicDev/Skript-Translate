@@ -4,6 +4,10 @@ import au.nagasonic.skripttranslate.util.Language;
 import au.nagasonic.skripttranslate.util.TranslateUtils;
 import ch.njol.skript.Skript;
 import ch.njol.skript.classes.Changer;
+import ch.njol.skript.doc.Description;
+import ch.njol.skript.doc.Examples;
+import ch.njol.skript.doc.Name;
+import ch.njol.skript.doc.Since;
 import ch.njol.skript.lang.Expression;
 import ch.njol.skript.lang.SkriptParser;
 import ch.njol.skript.util.AsyncEffect;
@@ -14,7 +18,10 @@ import org.jetbrains.annotations.Nullable;
 import java.io.IOException;
 import java.util.function.Function;
 
-
+@Name("Translate")
+@Description("Translates a given text into a different language.")
+@Examples({"set {_hi} to \"Hello!\"", "translate {_hi} to french"})
+@Since("1.0")
 public class EffTranslate extends AsyncEffect {
     static {
         Skript.registerEffect(EffTranslate.class,

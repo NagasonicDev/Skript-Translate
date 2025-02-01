@@ -4,6 +4,10 @@ import au.nagasonic.skripttranslate.util.Language;
 import au.nagasonic.skripttranslate.util.TranslateUtils;
 import ch.njol.skript.Skript;
 import ch.njol.skript.classes.Changer;
+import ch.njol.skript.doc.Description;
+import ch.njol.skript.doc.Examples;
+import ch.njol.skript.doc.Name;
+import ch.njol.skript.doc.Since;
 import ch.njol.skript.lang.Expression;
 import ch.njol.skript.lang.SkriptParser;
 import ch.njol.skript.util.AsyncEffect;
@@ -14,6 +18,10 @@ import org.jetbrains.annotations.Nullable;
 import java.io.IOException;
 import java.util.function.Function;
 
+@Name("Translate Specific")
+@Description({"Different from the Translate effect in that it specifies the current language of the string", "This can help to reduce misunderstandings caused by the auto-detect language."})
+@Examples({"set {_msg::*} to \"servidor\", \"Bienvenido\" and \"Hola\"", "translate {_msg::*} to english from spanish"})
+@Since("1.0")
 public class EffTranslateSpecific extends AsyncEffect {
     static {
         Skript.registerEffect(EffTranslateSpecific.class,

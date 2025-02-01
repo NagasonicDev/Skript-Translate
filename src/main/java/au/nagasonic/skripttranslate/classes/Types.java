@@ -13,7 +13,7 @@ public class Types {
     static {
         EnumUtils<Language> LANGUAGE_ENUM = new EnumUtils<>(Language.class, "languages");
         Classes.registerClass(new ClassInfo<>(Language.class, "language")
-                .user("")
+                .user("language")
                 .name("Language")
                 .description("Represents a Language for Translation")
                 .usage(LANGUAGE_ENUM.getAllNames())
