@@ -2,6 +2,7 @@ import org.apache.tools.ant.filters.ReplaceTokens
 
 plugins {
     id 'java'
+    id("com.gradleup.shadow") version "9.0.0-beta6"
 }
 
 group = 'au.nagasonic'
@@ -26,9 +27,9 @@ repositories {
 dependencies {
     compileOnly "io.papermc.paper:paper-api:1.20-R0.1-SNAPSHOT"
 
-    implementation "com.github.SkriptLang:Skript:2.10.0"
+    compileOnly "com.github.SkriptLang:Skript:2.10.0"
 
-    compileOnly 'org.projectlombok:lombok:1.18.36'
+    implementation group: 'com.ibm.icu', name: 'icu4j', version: '76.1'
 }
 
 def targetJavaVersion = 17
@@ -52,3 +53,9 @@ tasks.withType(JavaCompile).configureEach {
 processResources {
     filter ReplaceTokens, tokens: ["version": project.version]
 }
+
+shadowJar {
+    archiveClassifier = ""
+}
+
+
