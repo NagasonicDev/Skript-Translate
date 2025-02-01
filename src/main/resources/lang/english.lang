@@ -4,60 +4,198 @@ types:
     language: language¦s @a
 
 languages:
+    abkhaz: abkhaz
+    acehnese: acehnese
+    acholi: acholi
+    afrikaans: afrikaans
+    akan: akan
+    albanian: albanian
+    alur: alur
     amharic: amharic
     arabic: arabic
+    armenian: armenian
+    assamese: assamese
+    awadhi: awadhi
+    aymara: aymara
+    azerbaijani: azerbaijani
+    balinese: balinese
+    bambara: bambara
+    bashkir: bashkir
     basque: basque
+    batak_karo: batak karo
+    batak_simalungun: batak simalungun
+    batak_toba: batak toba
+    belarusian: belarusian
+    bemba: bemba
     bengali: bengali
-    english_uk: english uk
-    portugese_brazil: brazilian portugese
+    betawi: betawi
+    bhojpuri: bhojpuri
+    bikol: bikol
+    bosnian: bosnian
+    breton: breton
     bulgarian: bulgarian
+    buryat: burjat
+    cantonese: cantonese
     catalan: catalan
-    cherokee: cherokee
+    cebuano: cebuano
+    chichewa_nyanja: chichew nyanja
+    chinese_simplified: chinese simplified
+    chinese_traditional: chinese traditional
+    chuvash: chuvash
+    corsican: corsican
+    crimean_tatar: crimean tatar
     croatian: croatian
     czech: czech
     danish: danish
+    dinka: dinka
+    divehi: divehi
+    dogri: dogri
+    dombe: dombe
     dutch: dutch
+    dzongkha: dzongkha
     english: english
+    english_uk: english uk
+    esperanto: esperanto
     estonian: estonian
+    ewe: ewe
+    fijian: fijian
     filipino: filipino
     finnish: finnish
     french: french
+    french_canadian: canadian french
+    frisian: frisian
+    fulfulde: fulfulde
+    ga: ga
+    galician: galician
+    ganda: ganda
+    georgian: georgian
     german: german
     greek: greek
+    guarani: guarani
     gujarati: gujarati
+    haitian_creole: haitian creole
+    hakha_chin: hakha chin
+    hausa: haisa
+    hawaiian: hawaiian
     hebrew: hebrew
+    hiligaynon: hiligaynon
     hindi: hindi
+    hmong: hmong
     hungarian: hungarian
+    hunsrik: hunsrik
     icelandic: icelandic
+    igbo: igbo
+    iloko: iloko
     indonesian: indonesian
+    irish: irish
     italian: italian
     japanese: japanese
+    javanese: javanese
     kannada: kannada
+    kapampangan: kapampangan
+    kazakh: kazakh
+    khmer: khmer
+    kiga: kiga
+    kinyarwanda: kinyarwanda
+    kituba: kituba
+    konkani: konkani
     korean: korean
+    krio: krio
+    kurdish: kurdish
+    kurdish_sorani: kurdish sorani
+    kyrgys: kyrgys
+    lao: lao
+    latgalian: latgalian
+    latin: latin
     latvian: latvian
+    ligurian: ligurian
+    limburgan: limburgan
+    lingala: lingala
     lithuanian: lithuanian
+    lombard: lombard
+    luo: luo
+    luxembourgish: luxembourgish
+    macedonian: macedonian
+    maithili: maithili
+    makassar: makassar
+    malagasy: malagasy
     malay: malay
+    malay_jawi: malay jawi
     malayalam: malayalam
+    maltese: maltese
+    maori: maori
     marathi: marathi
+    meadow_mari: meadow mari
+    meiteilon: meiteilon
+    minang: minang
+    mizo: mizo
+    mongolian: mongolian
+    myanmar_burmese: myanmar burmese
+    ndebele: ndebele
+    nepalbhasa: nepalbhasa
+    nepali: nepali
     norwegian: norwegian
+    nuer: nuer
+    occitan: occitan
+    odia: odia
+    oromo: oromo
+    pangasinan: pangasinan
+    papiamento: papiamento
+    pashto: pashto
+    persian: persian
     polish: polish
     portugese: portugese
+    portugese_portugal: portugese portugal
+    portugese_brazil: brazilian portugese
+    punjabi: punjabi
+    punjabi_sharmukhi: punjabi sharmukhi
+    quechua: quechua
+    romani: romani
     romanian: romanian
+    rundi: rundi
     russian: russian
+    samoan: samoan
+    sango: sango
+    sanskrit: sanskript
+    scots_gaelic: scots gaelic
+    sepedi: sepedi
     serbian: serbian
-    chinese: chinese
+    sesotho: sesotho
+    seychellois_creole: seychellois creole
+    shan: shan
+    shona: shona
+    sicilian: sicilian
+    silesian: silesian
+    sindhi: sindhi
+    sinhalese: sinhalese
     slovak: slovak
     slovenian: slovenian
+    somali: somali
     spanish: spanish
+    sundanese: sundanese
     swahili: swahili
+    swati: swati
     swedish: swedish
+    tajik: tajik
     tamil: tamil
+    tatar: tatar
     telugu: telugu
+    tetum: tetum
     thai: thai
-    chinese_taiwan: taiwanese mandarin
+    tigrinya: tigrinya
+    tsonga: tsonga
+    tswana: tswana
     turkish: turkish
-    urdu: urdu
+    turkmen: turkmen
     ukrainian: ukrainian
+    urdu: urdu
+    uyghur: uyghur
+    uzbek: uzbek
     vietnamese: vietnamese
     welsh: welsh
+    xhosa: xhosa
+    yiddish: yiddish
+    yoruba: yoruba
+    yucatec_maya: yucatec maya
+    zulu: zulu
     none: none
