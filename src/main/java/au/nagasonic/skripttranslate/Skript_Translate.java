@@ -1,18 +1,16 @@
 package au.nagasonic.skripttranslate;
 
+import au.nagasonic.skripttranslate.util.Config;
+import au.nagasonic.skripttranslate.util.UpdateChecker;
 import au.nagasonic.skripttranslate.util.Util;
 import ch.njol.skript.Skript;
-import ch.njol.skript.SkriptAddon;
 import ch.njol.skript.util.Version;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.io.IOException;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -21,6 +19,7 @@ public final class Skript_Translate extends JavaPlugin {
     static final int[] EARLIEST_VERSION = new int[]{1, 19, 4};
     private static Skript_Translate instance;
     private static Logger logger;
+    private Config config;
     public static String path;
     private AddonLoader addonLoader = null;
 
@@ -30,6 +29,7 @@ public final class Skript_Translate extends JavaPlugin {
         instance = this;
         logger = getLogger();
         path = this.getDataFolder().getPath();
+        this.config = new Config(this);
         PluginManager pm = Bukkit.getPluginManager();
 
         this.addonLoader = new AddonLoader(this);
@@ -42,6 +42,7 @@ public final class Skript_Translate extends JavaPlugin {
             Util.log("&eThis is a Beta build, things may not work as expected, please report any bugs on GitHub");
             Util.log("&ehttps://github.com/NagasonicDev/Skript-Translate/issues");
         }
+        new UpdateChecker(this);
 
         Metrics metrics = new Metrics(this, 24590);
         metrics.addCustomChart(new Metrics.DrilldownPie("skript_version", () -> {
@@ -74,4 +75,8 @@ public final class Skript_Translate extends JavaPlugin {
     }
 
     public static String getPath(){ return path; }
+
+    public Config getPluginConfig() {
+        return this.config;
+    }
 }
